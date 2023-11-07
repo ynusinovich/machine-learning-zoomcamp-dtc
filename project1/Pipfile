@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "*"
+xgboost = "*"
+numpy = "*"
+pandas = "*"
+flask = "*"
+requests = "*"
+gunicorn = "*"
+rdkit = "*"
+
+[dev-packages]
+seaborn = "*"
+ipykernel = "*"
+awsebcli = "*"
+
+[requires]
+python_version = "3.10"
